@@ -1,5 +1,7 @@
 create database solvd;
 
+/*the action between a Visitant of the Park and 
+with the place where they sleep*/
 CREATE TABLE `aloja` (
   `NroAlojamiento` int NOT NULL,
   `dniVisitante` int NOT NULL,
@@ -12,6 +14,7 @@ CREATE TABLE `aloja` (
   CONSTRAINT `aloja_ibfk_2` FOREIGN KEY (`dniVisitante`) REFERENCES `visitantes` (`DNI`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+/* The place where the visitors  */
 CREATE TABLE `alojamiento` (
   `NroAlojamiento` int NOT NULL,
   `Capacidad` int DEFAULT NULL,
@@ -23,7 +26,7 @@ CREATE TABLE `alojamiento` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
-
+/* animals of the park */
 CREATE TABLE `animales` (
   `nom_cientifico` varchar(15) NOT NULL,
   `alimentacion` varchar(10) DEFAULT NULL,
