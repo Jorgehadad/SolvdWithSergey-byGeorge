@@ -1,0 +1,10 @@
+ALTER TABLE `parques` 
+ADD COLUMN `AddColumn1` VARCHAR(45);
+ALTER TABLE `parques` 
+ADD COLUMN `AddColumn2` VARCHAR(45);
+ALTER TABLE `parques` 
+ADD COLUMN `AddColumn3` VARCHAR(45);
+ALTER TABLE `parques` 
+ADD COLUMN `AddColumn4` VARCHAR(45);
+ALTER TABLE `parques` 
+ADD COLUMN `AddColumn5` VARCHAR(45);

@@ -1,0 +1,11 @@
+INSERT INTO `parques` VALUES ('Con Otoño','2020-10-09'),
+('Con Primavera','2020-10-08'),
+('Con Verano','2020-10-07'),
+('Luz De Noche','2020-10-02'),
+('Luz De Primavera','2020-10-04'),
+('Luz Del Dia','2020-10-01'),
+('Luz Prendida','2020-10-10'),
+('Sin Luz','2020-10-03'),
+('Sin Noche','2020-10-03'),
+('Sin Otoño','2020-10-06'),
+('Sin Verano','2020-10-05');
