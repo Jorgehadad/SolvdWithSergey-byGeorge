@@ -1,10 +1,12 @@
-ALTER TABLE `parques` 
-ADD COLUMN `AddColumn1` VARCHAR(45);
-ALTER TABLE `parques` 
-ADD COLUMN `AddColumn2` VARCHAR(45);
-ALTER TABLE `parques` 
-ADD COLUMN `AddColumn3` VARCHAR(45);
-ALTER TABLE `parques` 
-ADD COLUMN `AddColumn4` VARCHAR(45);
-ALTER TABLE `parques` 
-ADD COLUMN `AddColumn5` VARCHAR(45);
+ALTER TABLE `Parks` ADD COLUMN `Description` VARCHAR(45) default NULL;
+
+ALTER TABLE staff ADD COLUMN description varchar(45) default NULL; 
+
+ALTER TABLE resides_area_esp MODIFY COLUMN individualsNumber INT UNSIGNED NOT NULL;
+
+ALTER TABLE species MODIFY COLUMN Num_inventory INT UNSIGNED NOT NULL;
+
+ALTER TABLE `species` ADD COLUMN `Description` VARCHAR(45) default "just species";
+
+
+
