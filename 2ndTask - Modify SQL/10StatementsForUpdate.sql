@@ -38,10 +38,3 @@ UPDATE `solvd`.`excursions`
 SET `Hour` = '00:05:00' 
 WHERE (`Cod_Excursion` = '1');
 
-
-
-
-
-
-
-
