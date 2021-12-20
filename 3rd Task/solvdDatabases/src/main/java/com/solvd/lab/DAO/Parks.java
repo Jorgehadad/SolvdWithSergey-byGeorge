@@ -1,11 +1,10 @@
 package com.solvd.lab.DAO;
 
-import java.sql.Date;
 
 public class Parks {
 
     private String NameP;
-    private Date Date_Declaracion;
+    private String Date_Declaracion;
 
 
 
@@ -17,11 +16,11 @@ public class Parks {
         NameP = nameP;
     }
 
-    public Date getDate_Declaracion() {
+    public String getDate_Declaracion() {
         return Date_Declaracion;
     }
 
-    public void setDate_Declaracion(Date date_Declaracion) {
+    public void setDate_Declaracion(String date_Declaracion) {
         Date_Declaracion = date_Declaracion;
     }
 
@@ -32,7 +31,7 @@ public class Parks {
                 ", Date_Declaracion=" + Date_Declaracion +
                 '}';
     }
-    
+
     
 }
  
