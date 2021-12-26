@@ -47,14 +47,14 @@ public class JDBCConnection {
 
     }
 
-    public static void addPark(Connection con, String NameP, String Date_Declaracion) throws SQLException {
+    //public static void addPark(Connection con, String NameP, String Date_Declaracion) throws SQLException {
         /*Connection connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/solvd", "Admin", "Admin" );
         Statement statement = connection.createStatement();
         boolean res = statement.execute("INSERT INTO Parks (NameP, Date_Declaracion) VALUES ('" + park.getNameP() + "', '" + park.getDate_Declaracion() + "')");
         System.out.println("Result" + res);
         connection.close();   */
         
-        PreparedStatement statement = con.prepareStatement("INSERT INTO Parks (NameP, Date_Declaracion) VALUES (?, ?)");
+        /*PreparedStatement statement = con.prepareStatement("INSERT INTO Parks (NameP, Date_Declaracion) VALUES (?, ?)");
         statement.setString(1, NameP);
         statement.setString(2, Date_Declaracion);
         try {
@@ -63,5 +63,5 @@ public class JDBCConnection {
             con.close();
         }
     }
-
+        */
 }

@@ -12,8 +12,8 @@ import com.solvd.lab.interfaces.IAreasDAO;
 
 public class AreasService extends AbstractJdbcDAO implements IAreasDAO {
 
-    private final static String SQL_INSERT =    "INSERT INTO area(NameA, NameP, Extension) VALUES(?, ?, ?)";
-    private final static String SQL_UPDATE =    "UPDATE area SET NameA=?, NameP=?, Extension=? WHERE id = ?";
+    private final static String SQL_INSERT =    "INSERT INTO Areas(NameA, NameP, Extension) VALUES(?, ?, ?)";
+    private final static String SQL_UPDATE =    "UPDATE Areas SET NameA=?, NameP=?, Extension=? WHERE id = ?";
     private final static String SQL_GET_BY_ID = "SELECT * FROM Areas WHERE NameA = ?";
     private final static String SQL_DELETE =    "DELETE FROM Areas WHERE NameA = ?";
 
