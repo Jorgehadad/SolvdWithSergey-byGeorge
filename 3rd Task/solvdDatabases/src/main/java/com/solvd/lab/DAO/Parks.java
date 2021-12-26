@@ -1,12 +1,10 @@
-package com.solvd.lab.DAO;
+package com.solvd.lab.dao;
 
 
 public class Parks {
 
     private String NameP;
     private String Date_Declaracion;
-
-
 
     public String getNameP() {
         return NameP;

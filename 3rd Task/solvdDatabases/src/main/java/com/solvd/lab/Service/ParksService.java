@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.solvd.lab.DAO.Parks;
+import com.solvd.lab.dao.Parks;
 
 public abstract class ParksService {
     private Connection connection;

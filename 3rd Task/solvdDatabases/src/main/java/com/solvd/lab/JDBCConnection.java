@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.solvd.lab.DAO.Parks;
+import com.solvd.lab.dao.Parks;
 
 public class JDBCConnection {
 
