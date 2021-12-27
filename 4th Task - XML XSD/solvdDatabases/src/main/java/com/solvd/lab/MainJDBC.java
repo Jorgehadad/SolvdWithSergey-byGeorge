@@ -23,7 +23,7 @@ public class MainJDBC {
         }
 
         Areas area = new Areas();
-        area.setNameA("Area15");
+        area.setNameA("Area16");
         area.setNameP("With Summer");
         area.setExtencion(100.0);
 
