@@ -1,6 +1,5 @@
 package jaxb.utils;
 
-import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -22,9 +21,9 @@ public class XMLParser {
             for (int i = 0 ; i < parkList.getLength(); i++){
                 Node p = parkList.item(i);
                 if(p.getNodeType() == Node.ELEMENT_NODE){
-                    Element patient = (Element) p;
-                    String id = patient.getAttribute("id");
-                    NodeList nameList = patient.getChildNodes();
+                    Element park = (Element) p;
+                    String id = park.getAttribute("id");
+                    NodeList nameList = park.getChildNodes();
                     for(int k = 0; k < nameList.getLength(); k++){
                         Node n = nameList.item(k);
                         if(n.getNodeType() == Node.ELEMENT_NODE){
