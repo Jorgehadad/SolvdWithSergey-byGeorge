@@ -1,4 +1,4 @@
-package com.solvd.JDBC.dao;
+package com.solvd.jdbc.dao;
 
 import java.sql.Date;
 import java.sql.Time;

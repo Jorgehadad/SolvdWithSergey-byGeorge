@@ -1,4 +1,4 @@
-package com.solvd.JDBC.dao;
+package com.solvd.jdbc.dao;
 
 public class Enjoy {
     private Integer DNI;

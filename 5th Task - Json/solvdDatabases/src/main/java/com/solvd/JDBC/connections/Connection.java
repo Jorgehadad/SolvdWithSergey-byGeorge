@@ -1,4 +1,4 @@
-package com.solvd.JDBC.connections;
+package com.solvd.jdbc.connections;
 
 public class Connection {
     private int id;

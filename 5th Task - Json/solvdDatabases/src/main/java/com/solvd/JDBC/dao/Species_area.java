@@ -1,4 +1,4 @@
-package com.solvd.JDBC.dao;
+package com.solvd.jdbc.dao;
 
 public class Species_area {
     private Integer id;

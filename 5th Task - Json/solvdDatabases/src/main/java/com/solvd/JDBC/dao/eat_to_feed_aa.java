@@ -1,4 +1,4 @@
-package com.solvd.JDBC.dao;
+package com.solvd.jdbc.dao;
 
 public class eat_to_feed_aa {
     private String scientific_name_come;

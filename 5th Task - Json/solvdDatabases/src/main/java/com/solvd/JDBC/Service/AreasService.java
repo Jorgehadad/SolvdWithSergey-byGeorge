@@ -1,4 +1,4 @@
-package com.solvd.JDBC.Service;
+package com.solvd.jdbc.Service;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,9 +6,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.jar.Attributes.Name;
 
-import com.solvd.JDBC.connections.PoolConnection;
-import com.solvd.JDBC.dao.Areas;
-import com.solvd.JDBC.interfaces.IAreasDAO;
+import com.solvd.jdbc.connections.PoolConnection;
+import com.solvd.jdbc.dao.Areas;
+import com.solvd.jdbc.interfaces.IAreasDAO;
 
 public class AreasService extends AbstractJdbcDAO implements IAreasDAO {
 

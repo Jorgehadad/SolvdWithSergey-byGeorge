@@ -1,4 +1,4 @@
-package com.solvd.JDBC.connections;
+package com.solvd.jdbc.connections;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 

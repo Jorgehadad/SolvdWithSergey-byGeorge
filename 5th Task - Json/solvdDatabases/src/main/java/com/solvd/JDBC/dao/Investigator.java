@@ -1,4 +1,5 @@
-package com.solvd.JDBC.dao;
+
+package com.solvd.jdbc.dao;
 
 public class Investigator {
     private Integer DNI;

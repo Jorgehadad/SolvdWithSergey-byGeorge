@@ -1,4 +1,4 @@
-package com.solvd.JDBC;
+package com.solvd.jdbc;
 
 public class App {
 }

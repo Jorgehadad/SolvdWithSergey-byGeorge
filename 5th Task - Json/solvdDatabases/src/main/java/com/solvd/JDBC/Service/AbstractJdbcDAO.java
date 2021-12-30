@@ -1,6 +1,6 @@
-package com.solvd.JDBC.Service;
+package com.solvd.jdbc.Service;
 
-import com.solvd.JDBC.connections.ConnectionPool;
+import com.solvd.jdbc.connections.ConnectionPool;
 
 public class AbstractJdbcDAO {
 

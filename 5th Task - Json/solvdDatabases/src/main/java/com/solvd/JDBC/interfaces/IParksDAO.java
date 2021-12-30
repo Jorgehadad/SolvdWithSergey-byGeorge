@@ -1,6 +1,6 @@
-package com.solvd.JDBC.interfaces;
+package com.solvd.jdbc.interfaces;
 
-import com.solvd.JDBC.dao.Parks;
+import com.solvd.jdbc.dao.Parks;
 
 public interface IParksDAO extends IEntityDAO<Parks> {
     

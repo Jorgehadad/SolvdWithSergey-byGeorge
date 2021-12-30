@@ -1,10 +1,10 @@
-package com.solvd.JDBC.Service;
+package com.solvd.jdbc.Service;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.solvd.JDBC.dao.Parks;
+import com.solvd.jdbc.dao.Parks;
 
 public abstract class ParksService {
     private Connection connection;

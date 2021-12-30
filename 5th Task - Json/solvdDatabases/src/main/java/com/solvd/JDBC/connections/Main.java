@@ -1,4 +1,4 @@
-package com.solvd.JDBC.connections;
+package com.solvd.jdbc.connections;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

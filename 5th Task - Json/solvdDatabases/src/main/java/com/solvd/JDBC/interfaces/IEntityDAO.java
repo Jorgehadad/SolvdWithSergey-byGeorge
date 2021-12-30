@@ -1,4 +1,4 @@
-package com.solvd.JDBC.interfaces;
+package com.solvd.jdbc.interfaces;
 
 
 import java.sql.SQLException;

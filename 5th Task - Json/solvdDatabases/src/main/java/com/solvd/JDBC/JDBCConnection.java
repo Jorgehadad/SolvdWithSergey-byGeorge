@@ -1,4 +1,4 @@
-package com.solvd.JDBC;
+package com.solvd.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.solvd.JDBC.dao.Parks;
+import com.solvd.jdbc.dao.Parks;
 
 public class JDBCConnection {
 

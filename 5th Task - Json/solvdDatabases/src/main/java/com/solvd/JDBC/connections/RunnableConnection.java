@@ -1,4 +1,4 @@
-package com.solvd.JDBC.connections;
+package com.solvd.jdbc.connections;
 
 public class RunnableConnection implements Runnable{
     private final ConnectionPool cp;

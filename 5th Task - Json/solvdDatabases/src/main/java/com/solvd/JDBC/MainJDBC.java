@@ -1,11 +1,11 @@
-package com.solvd.JDBC;
+package com.solvd.jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import com.solvd.JDBC.Service.AreasService;
-import com.solvd.JDBC.connections.PoolConnection;
-import com.solvd.JDBC.dao.Areas;
+import com.solvd.jdbc.Service.AreasService;
+import com.solvd.jdbc.connections.PoolConnection;
+import com.solvd.jdbc.dao.Areas;
 
 public class MainJDBC {
 
