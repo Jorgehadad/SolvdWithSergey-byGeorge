@@ -20,7 +20,7 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "areas")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class AreasService implements IAreasDAO {
-    private static File FILE = new File("src/main/resources/areas.xml");
+    private static File FILE = new File("src/main/resources/XML/areas.xml");
 
     @XmlElement(name = "area")
     private List<areas> areas = null;
