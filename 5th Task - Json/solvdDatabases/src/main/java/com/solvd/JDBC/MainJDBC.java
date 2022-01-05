@@ -3,9 +3,9 @@ package com.solvd.jdbc;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import com.solvd.jdbc.Service.AreasService;
 import com.solvd.jdbc.connections.PoolConnection;
-import com.solvd.jdbc.dao.Areas;
+import com.solvd.jdbc.dao.AreasService;
+import com.solvd.jdbc.entities.Area;
 
 public class MainJDBC {
 
@@ -22,8 +22,8 @@ public class MainJDBC {
             System.out.println(conn + "Connection failed");
         }
 
-        Areas area = new Areas();
-        area.setNameA("Area16");
+        Area area = new Area();
+        area.setNameA("Area19");
         area.setNameP("With Summer");
         area.setExtencion(100.0);
 

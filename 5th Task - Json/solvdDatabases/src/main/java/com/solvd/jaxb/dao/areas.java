@@ -8,7 +8,7 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "areas")
+@XmlRootElement(name = "area")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class areas  {
 

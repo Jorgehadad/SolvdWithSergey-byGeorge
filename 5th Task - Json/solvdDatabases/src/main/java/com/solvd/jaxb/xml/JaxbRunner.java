@@ -16,7 +16,7 @@ public class JaxbRunner {
         areas areas;
         areas = (areas) jaxbUnmarshaller.unmarshal
                 (JaxbRunner.class.getClassLoader().
-                        getResourceAsStream("src/main/resources/areas.xml"));
+                        getResourceAsStream("XML/areas.xml"));
         System.out.println(areas);
         
     }
